@@ -1,8 +1,8 @@
 ## Steps to setup this project
 
 - Create an account on [mlab.com](https://mlab.com) and setup a database
-- Browse to project root and run `npm install`
-- Create a file in config/env/development.js file with the following contents:
+- Get the database, username, password and create a file server/config/env/development.js with the following contents:
+
     ```
     module.exports = {
         db: {
@@ -12,6 +12,8 @@
         }
     }
     ```
+
+- Browse to project root and run `npm install`
 - Browse to `client` folder and again run `npm install`. Be patient, it takes some time.
 - Run `bower install` to install bootstrap
 - From within the client folder, run `npm start`. This starts the live development server.
