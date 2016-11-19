@@ -1,0 +1,22 @@
+{
+  "name": "tasklistapp",
+  "description": "simple tasklist app with CRUD ops",
+  "main": "index.html",
+  "authors": [
+    "steady-daddy <thisismansoorkhan@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/src/assets/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
